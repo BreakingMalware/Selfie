@@ -15,4 +15,4 @@
 * Use virtualized environment to run malware.exe
 
 # Authors
-* BreakingMalware.com team
+* enSilo research
