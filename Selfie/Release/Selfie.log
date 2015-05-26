@@ -1,0 +1,25 @@
+﻿Build started 5/26/2015 4:53:48 PM.
+Project "C:\Users\Lab\Desktop\Selfie\Selfie\Selfie.vcxproj" on node 2 (rebuild target(s)).
+InitializeBuildStatus:
+  Creating "Release\Selfie.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\DynamoRIO-Windows-5.1.0-RC1\include" /I"..\DynamoRIO-Windows-5.1.0-RC1\ext\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SELFIE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Selfie.cpp stdafx.cpp
+  Selfie.cpp
+  stdafx.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lab\Desktop\Selfie\Release\Selfie.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\DynamoRIO-Windows-5.1.0-RC1\ext\lib32\release" /LIBPATH:"..\DynamoRIO-Windows-5.1.0-RC1\lib32\release" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Selfie.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Lab\Desktop\Selfie\Release\Selfie.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lab\Desktop\Selfie\Release\Selfie.lib" /MACHINE:X86 /DLL Release\Selfie.obj
+  Release\stdafx.obj
+     Creating library C:\Users\Lab\Desktop\Selfie\Release\Selfie.lib and object C:\Users\Lab\Desktop\Selfie\Release\Selfie.exp
+  Generating code
+  Finished generating code
+  Selfie.vcxproj -> C:\Users\Lab\Desktop\Selfie\Release\Selfie.dll
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Lab\Desktop\Selfie\Release\Selfie.dll;#2" /manifest Release\Selfie.dll.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Release\Selfie.unsuccessfulbuild".
+  Touching "Release\Selfie.lastbuildstate".
+Done Building Project "C:\Users\Lab\Desktop\Selfie\Selfie\Selfie.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
